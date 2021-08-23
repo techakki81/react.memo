@@ -13,5 +13,5 @@ React.Memo appleis this concept to React components...after all React Components
 4. Demo 
 5. Why not Wrap everthing by default with Memo 
     1. FB does not do it by defauly 
-    2. Comparison of object is costyl
+    2. Comparison of object is costly
 6. make first version without it and then check with profiler. use React.Memo only if   it bring value via profiler

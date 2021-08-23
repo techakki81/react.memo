@@ -10,14 +10,13 @@ import React from 'react'
             Total Cost: {unitPrice*quantity}
         </div>
     )
-}
+ }
 
-//export default TotalPrice
-
-export default  React.memo(TotalPrice,(prevProps,nextProps)=>{
+    
+export default  React.memo(TotalPrice,(prevProps,nextProps) =>{
     if(prevProps.unitPrice === nextProps.unitPrice &&
         prevProps.quantity === nextProps.quantity )
         return true
     else 
         return false
-})
+    }) 
